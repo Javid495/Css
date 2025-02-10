@@ -1,0 +1,36 @@
+*{
+  background-color: violet;
+}
+body{
+  color : white;
+}
+[href]{
+  text-decoration: none;
+  font-weight: 100px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: black;
+}
+[href="http//sofiaplus"]{
+  color: red;
+}
+input{
+  height: 50px;
+  margin-top: 15px;
+  width: 50%;
+  border-radius: 20rem;
+}
+[type="text"]{
+  background-color: yellow;
+}
+[type="email"]{
+  background-color: blue;
+}
+[type="number"]{
+  background-color: red;
+}
+[href^="https"]{
+  color:yellow;
+}
+[href$="org"]{
+  color:blue  ;
+}
